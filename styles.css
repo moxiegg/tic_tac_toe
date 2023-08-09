@@ -1,0 +1,12 @@
+
+.cells{
+    width:60px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.cells div{
+    width:20px;
+    height: 20px;
+    border:2px solid black;
+}
